@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 function EditCurrentTask({ currentId }) {
 
-
+    currentId = Number(currentId);
     const { task, setTask } = useContext(UserContext);
     let prevName = "", prevDescription = "", prevPriority = "";
 
@@ -19,6 +19,9 @@ function EditCurrentTask({ currentId }) {
         prevDescription = e.description;
         prevPriority = e.priority;
     }
+
+
+    console.log(prevName, prevDescription, prevPriority);
 
     task.map((e) => {
         e.id === currentId ? setValues(e) : e.id = e.id;
@@ -32,7 +35,7 @@ function EditCurrentTask({ currentId }) {
     const [Priority, setPriority] = useState(prevPriority);
     const navigate = useNavigate();
 
-
+    console.log(id, name, description, Priority);
     const handleClose = () => {
         setShow(false);
     };
@@ -46,7 +49,7 @@ function EditCurrentTask({ currentId }) {
             setShow(true);
         }
         else {
-
+            console.log(task);
             task.map((e) =>
                 e.id === currentId ? e.description = description : e.description = e.description
             )

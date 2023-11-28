@@ -5,12 +5,12 @@ import UserContext from './UserContext'
 const UserContextProvider = ({ children }) => {
 
 
-  // const storedTask = JSON.parse(localStorage.getItem('task'));
-  const [task, setTask] = useState([]);
+  const storedTask = JSON.parse(localStorage.getItem('task'));
+  const [task, setTask] = useState(storedTask);
 
-  // useEffect(()=>{
-  //   localStorage.setItem('', JSON.stringify(task));
-  // }, [task])
+  useEffect(()=>{
+    localStorage.setItem('task', JSON.stringify(task));
+  }, [task])
 
 
   return (

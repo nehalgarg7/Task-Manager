@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import UserContext from '../context/UserContext';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
@@ -31,17 +31,40 @@ function AddNewTask() {
             setShow(true);
         }
         else {
-            const id = task.length + 1;
+            const id = task?.length + 1 || 1;
             let obj = {
                 id: id,
                 description: description,
                 name: name,
                 priority: Priority,
             }
-            setTask([...task, obj]);
+            if(task?.length >= 0)
+            {
+                setTask([...task, obj]);
+            }
+            else
+            {
+                setTask([obj]);
+            }
             navigate('/');
         }
     }
+
+    // Ref
+
+    // const nameRef =  useRef(null);
+    // const descriptionRef = useRef(null);
+    // const priorityRef = useRef(null);
+
+    // const handleSubmit = (evt) => {
+    //     evt.preventDefault()
+    //     console.log(nameRef.current.value)
+    //     console.log(descriptionRef.current.value)
+    //     console.log(priorityRef.current);
+    //     console.log(priorityRef);
+    //     //setTask([...task, inputRef.current.value])
+        
+    // }
 
     return (
         <>
@@ -74,6 +97,7 @@ function AddNewTask() {
                             placeholder="Username"
                             aria-label="Username"
                             aria-describedby="basic-addon1"
+                            //ref={nameRef}
                             onChange={(e) => { setName(e.target.value) }
                             }
                         />
@@ -88,6 +112,7 @@ function AddNewTask() {
                             aria-describedby="basic-addon1"
                             onChange={(e) => { setDescription(e.target.value) }
                             }
+                            //ref={descriptionRef}
                         />
                     </InputGroup>
 
@@ -101,9 +126,9 @@ function AddNewTask() {
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu>
-                                <Dropdown.Item href="#" onClick={(e) => setPriority(e.target.innerText)}>low</Dropdown.Item>
-                                <Dropdown.Item href="#" onClick={(e) => setPriority(e.target.innerText)}>medium</Dropdown.Item>
-                                <Dropdown.Item href="#" onClick={(e) => setPriority(e.target.innerText)}>high</Dropdown.Item>
+                                <Dropdown.Item href="#"   onClick={(e) => setPriority(e.target.innerText)} >low</Dropdown.Item>
+                                <Dropdown.Item href="#"   onClick={(e) => setPriority(e.target.innerText)} >medium</Dropdown.Item>
+                                <Dropdown.Item href="#"   onClick={(e) => setPriority(e.target.innerText)} >high</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
                     </InputGroup>
@@ -113,7 +138,7 @@ function AddNewTask() {
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
-                    <Button variant="primary" onClick={handleClick}>
+                    <Button variant="primary" onClick={handleClick} >
                         Save Changes
                     </Button>
                 </Modal.Footer>

@@ -55,9 +55,7 @@ function Task() {
                     <td>
 
                     </td>
-                    <td>
-                        ID
-                    </td>
+                    
                     <td>
                         Name
                     </td>
@@ -77,9 +75,7 @@ function Task() {
                             <td>
                                 <input type="checkbox" name={`${data.id}`} onChange={handleCheckBoxClick}  />
                             </td>
-                            <td>
-                                {data.id}
-                            </td>
+                           
                             <td className={`${data.status === true ? "checked" : "notchecked"}`}>
                                 <Link to={`/view/${data.id}`}>{data.name}</Link>
                                 </td>
