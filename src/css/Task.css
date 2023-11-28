@@ -1,0 +1,19 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 4px;
+    margin-left: 18px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.notchecked {
+
+}
