@@ -9,7 +9,7 @@ function View(){
     let name = "", description = "", priority = "" , status = "";
 
     task.map((e)=>{
-        if(e.id == id)
+        if(e.id === id)
         {
             name = e.name;
             description = e.description;
