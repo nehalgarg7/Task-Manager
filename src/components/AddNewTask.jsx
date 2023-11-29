@@ -32,7 +32,16 @@ function AddNewTask() {
             setShow(true);
         }
         else {
-            const id = task?.length + 1 || 1;
+            // console.log(task[task.length]);
+            let lastId ; 
+            let check = false;
+            task?.map((e)=>{
+                lastId = e.id;
+                check = true;
+            })
+            // const id = task?.length + 1 || 1;
+            
+            const id = check === true ? lastId + 1 : 1;
             let obj = {
                 id: id,
                 description: description,
@@ -49,6 +58,7 @@ function AddNewTask() {
         }
     }
 
+    
 
     return (
         <>
@@ -117,6 +127,8 @@ function AddNewTask() {
                     </Modal.Footer>
 
                 </Modal>
+
+                {/* <button onClick={()=>{setNewID(newID+1)}}>Counter: {newID}</button> */}
             </div>
         </>
     )
