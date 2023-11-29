@@ -1,67 +1,67 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header{
-    width: 100%;
-    background-color: #132b35;
+.header {
+  width: 100%;
+  background-color: #132b35;
 }
 
-.header .navbar .links{
-    display: flex;
-    align-items: center;
-    justify-content: right;
+.header .navbar .links {
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
-.header .navbar .links{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    
+.header .navbar .links {
+  width: 80%;
+  display: flex;
+  align-items: center;
 }
 
-.navbar ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0px;
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
 }
 
 .navbar ul li {
-    list-style: none;
-    color: aliceblue;
-    text-decoration: none;
-    text-decoration-line: none;
-    margin: 4px;
+  list-style: none;
+  color: aliceblue;
+  text-decoration: none;
+  text-decoration-line: none;
+  margin: 4px;
 }
 
-.link{
-    text-decoration: none;
-    color: aliceblue;
-    padding: 8px;
+.link {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 8px;
 }
 
-.link:hover{
-    background-color: #040b0e;
+.link:hover {
+  background-color: #040b0e;
 }
 
-.link:active, .link:visited{
-    background-color: #040b0e !important;
-    color: aliceblue !important;
-    text-decoration: underline whitesmoke !important;
+.link:active,
+.link:visited {
+  background-color: #040b0e !important;
+  color: aliceblue !important;
+  text-decoration: underline whitesmoke !important;
 }
 
-.logo{
-    width: 20%;
-    color: aliceblue;
-    padding-left:8px ;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo {
+  width: 20%;
+  color: aliceblue;
+  padding-left: 8px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#last{
-    padding-right: 8px;
+#last {
+  padding-right: 8px;
 }

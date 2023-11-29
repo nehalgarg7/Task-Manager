@@ -8,7 +8,7 @@ const UserContextProvider = ({ children }) => {
   const storedTask = JSON.parse(localStorage.getItem('task'));
   const [task, setTask] = useState(storedTask);
 
-  useEffect(()=>{
+  useEffect(() => {
     localStorage.setItem('task', JSON.stringify(task));
   }, [task])
 

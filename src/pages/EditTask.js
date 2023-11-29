@@ -2,13 +2,13 @@ import { useParams } from "react-router-dom";
 import EditCurrentTask from "../components/EditCurrentTask";
 import Header from "../components/Header";
 
-function EditTask () {
+function EditTask() {
 
-    const {id} = useParams();
-    return(
+    const { id } = useParams();
+    return (
         <>
-        <Header></Header>
-        <EditCurrentTask currentId={id}></EditCurrentTask>
+            <Header></Header>
+            <EditCurrentTask currentId={id}></EditCurrentTask>
         </>
     )
 }

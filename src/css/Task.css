@@ -45,15 +45,12 @@ td {
 
 .checked {
   text-decoration: line-through;
-
 }
 
-
-.linkname{
-    color: black;
-    text-decoration: none;
-} 
-
+.linkname {
+  color: black;
+  text-decoration: none;
+}
 
 table.myTable > tbody > tr > td:first-child {
   width: 3%;
@@ -118,24 +115,24 @@ table.myTable > tbody > tr > td {
   border: 1px solid black;
 }
 
-.checked:hover, .notchecked:hover{
-    background-color: rgb(151, 124, 90);
-    cursor: pointer;
-    color: white;
-    text-decoration: underline black;
-    
+.checked:hover,
+.notchecked:hover {
+  background-color: rgb(151, 124, 90);
+  cursor: pointer;
+  color: white;
+  text-decoration: underline black;
 }
 
-.deletebtn:hover{
-    background-color: #810600 !important;
-    border:0 !important;
+.deletebtn:hover {
+  background-color: #810600 !important;
+  border: 0 !important;
 }
 
-.editbtnn:hover{
-    background-color: #393939 !important;
-    border:0 !important;
+.editbtnn:hover {
+  background-color: #393939 !important;
+  border: 0 !important;
 }
 
-.checkbox{
-    margin-left: 4px !important;
+.checkbox {
+  margin-left: 4px !important;
 }

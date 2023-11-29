@@ -1,31 +1,48 @@
 import { Link } from "react-router-dom";
-import "../css/Header.css"
+import "../css/Header.css";
 
 function Header() {
-    return (
-        <>
-            <div className="header">
-                <div className="navbar">
-                    <div className="logo">
-                        <Link to="/" className="link">AulaCube</Link>
-                    </div>
-                    <div className="links">
-                        <ul>
-                            {window.location.pathname === "/add" ? "" : <li><Link to="/add" className="link">
-                                Add Task
-                            </Link></li>}
+  return (
+    <>
+      <div className="header">
+        <div className="navbar">
+          <div className="logo">
+            <Link to="/" className="link">
+              AulaCube
+            </Link>
+          </div>
+          <div className="links">
+            <ul>
+              {window.location.pathname === "/add" ? (
+                ""
+              ) : (
+                <li>
+                  <Link to="/add" className="link">
+                    Add Task
+                  </Link>
+                </li>
+              )}
 
-                            {window.location.pathname === "/" ? "" : <li><Link to="/" className="link">
-                                Home
-                            </Link></li>}
-                            <li id="last"><Link id="last" className="link" to="/about">About</Link></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </>
-
-    )
+              {window.location.pathname === "/" ? (
+                ""
+              ) : (
+                <li>
+                  <Link to="/" className="link">
+                    Home
+                  </Link>
+                </li>
+              )}
+              <li id="last">
+                <Link id="last" className="link" to="/about">
+                  About
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default Header;
@@ -35,7 +52,8 @@ export default Header;
 // <li><Link to="/" className="link">
 //                                 Home
 //                                 </Link></li>
-{/* <br />
+{
+  /* <br />
 
 <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
@@ -69,4 +87,5 @@ export default Header;
       <Nav.Link href="#pricing">Pricing</Nav.Link>
     </Nav>
   </Container>
-</Navbar> */}
+</Navbar> */
+}

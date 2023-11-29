@@ -1,15 +1,15 @@
 import AddNewTask from "../components/AddNewTask";
 import Header from "../components/Header";
 
-function AddTask(){
+function AddTask() {
 
-    return(
+    return (
         <>
-        <Header></Header>
-        <AddNewTask></AddNewTask>
+            <Header></Header>
+            <AddNewTask></AddNewTask>
         </>
     )
-    
+
 }
 
 export default AddTask;

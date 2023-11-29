@@ -1,21 +1,23 @@
 import "../css/AboutMe.css";
 
-
 function AboutMe() {
   return (
     <>
       <div className="details">
         <div className="companyDetails">
           <h2>
-          This is an assignment given by <span id="companyName">AulaCube Technologies</span>.
-            
+            This is an assignment given by{" "}
+            <span id="companyName">AulaCube Technologies</span>.
           </h2>
         </div>
 
         <div className="user-details">
           <table>
             <thead>
-              <td colSpan="2"> <span id="Mydetail">My Details</span> </td>
+              <td colSpan="2">
+                {" "}
+                <span id="Mydetail">My Details</span>{" "}
+              </td>
             </thead>
             <tr>
               <td>
@@ -35,13 +37,9 @@ function AboutMe() {
               <td>
                 <strong>Phone No </strong>
               </td>
-              <td>
-                7759800660,
-                8094189739
-              </td>
+              <td>7759800660, 8094189739</td>
             </tr>
-            <tr>
-            </tr>
+            <tr></tr>
           </table>
         </div>
       </div>

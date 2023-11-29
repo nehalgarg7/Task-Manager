@@ -1,11 +1,11 @@
 import AboutMe from "../components/AboutMe";
 import Header from "../components/Header";
 
-function About(){
-    return(
+function About() {
+    return (
         <>
-        <Header></Header>
-        <AboutMe></AboutMe>
+            <Header></Header>
+            <AboutMe></AboutMe>
         </>
     )
 }
