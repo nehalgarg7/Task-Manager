@@ -54,9 +54,6 @@ td {
     text-decoration: none;
 } 
 
-.notchecked{
-
-}
 
 table.myTable > tbody > tr > td:first-child {
   width: 3%;
