@@ -7,6 +7,8 @@ import EditTask from './pages/EditTask';
 import UserContextProvider from './context/UserContextProvider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import View from './pages/View';
+import About from './pages/About';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home></Home>}></Route>
         <Route path="/add" element={<AddTask></AddTask>}></Route>
+        <Route path="/about" element ={<About></About>} ></Route>
         <Route path="/edit/:id" element={<EditTask></EditTask>}></Route>
         <Route path="/view/:id" element={<View></View>}></Route>
       </Routes>
