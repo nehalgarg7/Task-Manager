@@ -103,7 +103,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 **pages** - It include all the necesaary pages.<br>
 
 **Project Explaination**
-![Home-Page-UI](hhttps://i.postimg.cc/h45MG9Z2/Screenshot-2023-11-30-163852.png)
+![Home-Page-UI](https://i.postimg.cc/rFJQ1vfw/Screenshot-2023-11-30-161647.png)
 After building the project. The home page should be render.
 
 **On Add Task Click**
@@ -116,7 +116,7 @@ The Add Task Page Should be open.
 ![New Task Details Filled](https://i.postimg.cc/RhM6Tb0c/Screenshot-2023-11-30-161822.png)<br>
 -On click of Close. The Modal should be close. And it should keep on the Add Task page only. <br>
 -On click of Save Changes. The Modal should be close. And You should get rendered to Home Page. Adding the New Task to the table. <br>
-![New-Task-Added](https://i.postimg.cc/m2HVqPZh/Screenshot-2023-11-30-161831.png)<br> <br>
+![New-Task-Added](https://i.postimg.cc/m2HVqPZh/Screenshot-2023-11-30-161831.png)<br>
 
 **Edit Task Button Click** <br>
 On click of Edit Task button you must get rendered to Edit Page.<br>
