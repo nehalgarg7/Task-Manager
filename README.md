@@ -86,3 +86,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     cd task 
     npm i 
     ```
+** To run the project **
+   ```
+
+   npm run start
+   ```
