@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <h1> How to Set Up and Run the Project -- Task Manager </h1>
 
-<p> Step to perform </p>
+<p> Steps: </p>
 <ol>
     <li>Create a blank document in your Desktop. </li>
     <li>Open the folder in the VS Code. </li>
@@ -91,3 +91,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
    npm run start
    ```
+
+
