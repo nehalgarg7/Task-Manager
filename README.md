@@ -83,7 +83,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     ```
     
     git clone https://github.com/nehalgarg7/Task-Manager.git
-    cd task 
+    cd Task-Manager 
     npm i 
     ```
 ** To run the project **
