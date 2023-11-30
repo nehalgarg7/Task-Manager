@@ -92,4 +92,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    npm run start
    ```
 
-
+![Alt text](/Task-Manager/src/images/ProjectStructure.png)
