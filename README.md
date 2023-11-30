@@ -77,7 +77,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     <li>Create a blank document in your Desktop. </li>
     <li>Open the folder in the VS Code. </li>
     <li>Open the terminal in the VS Code. </li>
-    <li>Run Command in the terminal.</li>
+    <li>Run the following Commands in the terminal.</li>
 </ol>
 
     ```
