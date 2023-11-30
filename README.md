@@ -93,37 +93,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    ```
 
 ![Project Structure](https://github.com/nehalgarg7/Task-Manager/blob/master/src/images/ProjectStructure.png)
-<h5>** components ** <h5> - Include all the react components such as
-<ul>
- <li>AboutMe.jsx</li>
- <li>AddNewTask.jsx</li>
- <li>EditCurrentTask.jsx</li>
- <li>Header.jsx</li>
- <li>Task.jsx</li>
-<ul>
-
-<h5>** context ** <h5> - Includes the context used.
- -- UserContext.js 
- -- UserContextProvider.js - It provide the context of the *task* to the whole project. Also, stroing the task in the localstorage.
-
-<h2>** css ** <h2> - Includes all the CSS Files for the React Components and Pages.
-
-<ul>
- <li>** AboutMe.css **</li>
- <li>** AddNewTask.css **</li>
- <li>** EditCurrentTask.css **</li>
- <li>** Header.css **</li>
- <li>** Task.css **</li>
- <li>** View.css ** </li>
-<ul>
-
-<h2>** images ** </h2> - Includes all the necessary images.
-
-<h2>** pages ** </h2> - Includes all the pages.
-<ul>
- <li>** About.js **</li>
- <li>** AddTask.js **</li>
- <li>** EditTask.js **</li>
- <li>** Home.js **</li>
- <li>** View.js ** </li>
-<ul>
+** components ** - Include all the react components such as
+** context ** - It provide the context of the task to the whole project. Also, stroing the task in the localstorage.
+** css ** - It include all the css files for the pages and components.
+** images ** - It include all the necessary image files.
+** pages ** - It include all the necesaary pages.
