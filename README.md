@@ -96,7 +96,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <h5>Project Structure</h5>
 
-**components** - Include all the react components such as <br>
+**components** - Include all the react components. <br>
 **context** - It provide the context of the task to the whole project. Also, stroing the task in the localstorage.<br>
 **css**- It include all the css files for the pages and components.<br>
 **images** - It include all the necessary image files.<br>
