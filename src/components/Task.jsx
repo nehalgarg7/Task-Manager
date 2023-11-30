@@ -46,7 +46,7 @@ function Task() {
     <>
       {
         <div className="taskbox">
-          <div className={`table ${task.length > 9 ? "scroll" : ""}`}>
+          <div className={`table ${task?.length > 9 ? "scroll" : ""}`}>
             <table className="taskboxTable myTable">
               <caption>Task Details</caption>
               <thead>
