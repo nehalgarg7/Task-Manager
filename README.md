@@ -93,8 +93,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    ```
 
 ![Project Structure](https://github.com/nehalgarg7/Task-Manager/blob/master/src/images/ProjectStructure.png)
-<li>** components ** </li> - Include all the react components such as
-<li>** context **</li> - It provide the context of the task to the whole project. Also, stroing the task in the localstorage.
-<li>** css ** </li>- It include all the css files for the pages and components.
-<li>** images ** </li>- It include all the necessary image files.
-<li>** pages ** </li>- It include all the necesaary pages.
+
+<h5>Project Structure</h5>
+```
+** components ** - Include all the react components such as <br>
+** context ** - It provide the context of the task to the whole project. Also, stroing the task in the localstorage.
+** css **- It include all the css files for the pages and components.
+** images ** - It include all the necessary image files.
+** pages ** - It include all the necesaary pages.
+```
