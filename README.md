@@ -78,9 +78,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     <li>Open the folder in the VS Code. </li>
     <li>Open the terminal in the VS Code. </li>
     <li>Run Command in the terminal.</li>
+</ol>
+
     ```
+    
     git clone https://github.com/nehalgarg7/Task-Manager.git
     cd task 
     npm i 
     ```
-</ol>
