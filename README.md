@@ -112,7 +112,21 @@ The Add Task Should be open
 
 **Add Task Button Click**
 ![Add-Task-Button-Click](https://i.postimg.cc/2jvZNhvp/Screenshot-2023-11-30-161704.png)
--The Modal should be open. Providing the feature to add Task Name, Description and to set Priority.
--On click of Close. The Modal should be close. And it should keep on the Add Task page only.
--On click of Save Changes. The Modal should be close. And You should get rendered to Home Page. Adding the New Task to the table.
+-The Modal should be open. Providing the feature to add Task Name, Description and to set Priority. <br>
+![New Task Details Filled](https://i.postimg.cc/RhM6Tb0c/Screenshot-2023-11-30-161822.png)
+-On click of Close. The Modal should be close. And it should keep on the Add Task page only. <br>
+-On click of Save Changes. The Modal should be close. And You should get rendered to Home Page. Adding the New Task to the table. <br>
 ![New-Task-Added](https://i.postimg.cc/m2HVqPZh/Screenshot-2023-11-30-161831.png)
+
+**Edit Task Button Click**
+On click of Edit Task button you must get rendered to Edit Page.<br>
+![Edit Page](https://i.postimg.cc/2yzGBGRt/Screenshot-2023-11-30-161846.png)
+On click of Edit Task Button Click - <br>
+A Modal should be open with existing value in the input boxes.<br>
+![Edit Modal Open](https://i.postimg.cc/Zn78vhL9/Screenshot-2023-11-30-161852.png)
+-On click of Close. The Modal should be close. And it should keep on the Add Task page only. <br>
+-On click of Save Changes. The Modal should be close. And You should get rendered to Home Page. Adding the Edited Task to the table. <br>
+
+**About Page**
+On click of About. You should get rendered to About Page.
+![About Page](https://i.postimg.cc/fR432Lkz/Screenshot-2023-11-30-161916.png)
