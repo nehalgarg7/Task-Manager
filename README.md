@@ -103,7 +103,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 **images** - It include all the necessary image files.<br>
 **pages** - It include all the necesaary pages.<br>
 
-**Project Explaination**
+<h1>Project Explaination </h1>
+
 ![Home-Page-UI](https://i.postimg.cc/rFJQ1vfw/Screenshot-2023-11-30-161647.png)
 After building the project. The home page should be render.
 
