@@ -92,7 +92,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    npm run start
    ```
 
-![Project Structure](https://ibb.co/3RCGXff)
+![Project Structure](https://i.postimg.cc/sgNwM52j/2023-04-23.png)
 
 <h5>Project Structure</h5>
 
