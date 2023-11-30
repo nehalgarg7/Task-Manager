@@ -128,8 +128,8 @@ A Modal should be open with existing value in the input boxes.<br>
 -On click of Save Changes. The Modal should be close. And You should get rendered to Home Page. Adding the Edited Task to the table. <br>
 
 **Table Scroll Bar Open**
-Responsive Table UI.<br>
 ![Table-Scroll-Bar](https://i.postimg.cc/dVb0S5BZ/Screenshot-2023-11-30-164426.png)<br>
+Responsive Table UI.<br>
 
 **About Page**
 On click of About. You should get rendered to About Page.
