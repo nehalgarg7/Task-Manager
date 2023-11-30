@@ -92,9 +92,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    npm run start
    ```
 
-![Project Structure](https://i.postimg.cc/sfLX0X1B/Screenshot-2023-11-30-150616.png)
 
 <h2>Project Structure</h2>
+
+![Project Structure](https://i.postimg.cc/sfLX0X1B/Screenshot-2023-11-30-150616.png)
 
 **components** - Include all the react components. <br>
 **context** - It provide the context of the task to the whole project. Also, stroing the task in the localstorage.<br>
